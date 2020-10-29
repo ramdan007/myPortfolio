@@ -38,13 +38,29 @@
 
     box-shadow: 0 80px 140px -40px rgba(0, 0, 0, 0)!important;
   }
+
+  .image {
+    display: block;
+    position: relative;
+    width: 40%;
+    height: 70%;
+    margin: 0 8% 0 auto;
+    -webkit-box-shadow: 0 80px 140px -40px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 80px 140px -40px rgba(0, 0, 0, 0.6);
+}
+
 @media screen and (max-width: 420px){
 .image {
     width: 100%;
     height: 55.633%;
     margin: 0 0%;
-    top: 9.859%;
+    top: 10%;
 }
+}
+
+.image--blog {
+    background: url(assets/img/blog.png) no-repeat center;
+    background-size: cover;
 }
     </style>
     <header>
@@ -141,7 +157,24 @@
                 </div></a>
             </div>
           </div>
-          <div class="section">
+                  <div class="section">
+            <div class="fullpage__slide">
+              <div class="title">
+                <h2 class="title__text js-letter">Ramdan's Blog</h2>
+                <div class="border js-letter"><span></span><span class="js-letter"></span></div>
+                <p class="title__lead js-letter">I love Math, Technology,<br>and Algorithms.</p>
+                <div class="btn-wrap js-letter"><a class="btn" href="blog.html">Show me more</a></div>
+              </div><a class="image image--blog" href="blog.html">
+                <div class="image__over">
+                  <div class="image__cover"></div>
+                  <div class="image__cover"></div>
+                </div>
+                <div class="page-num">
+                  <p>03</p>
+                </div></a>
+            </div>
+          </div>
+                    <div class="section">
             <div class="fullpage__slide">
               <div class="title">
                 <h2 class="title__text js-letter">Get In Touch</h2>
@@ -150,8 +183,8 @@
                   <li class="js-letter"><a href="mailto:alabdullahramdan@gmail.com">alabdullahramdan@gmail.com</a></li>
                   <!-- <li class="js-letter"><a href="https://www.linkedin.com/in/ramdan-alabdullah-000b70165/" target="_blank"><i class="fab fa-linkedin"></i></a></li> -->
       <!--             <li class="js-letter">
-                  	<a href="https://twitter.com/alabdullahramd" target="_blank"><i class="fab fa-twitter"></i></a>
-                  	<a href="https://www.instagram.com/alabdullahramdan/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://twitter.com/alabdullahramd" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/alabdullahramdan/" target="_blank"><i class="fab fa-instagram"></i></a>
                   </li> -->
                 </ul>
               </div>
@@ -161,7 +194,7 @@
                   <div class="image__cover"></div>
                 </div>
                 <div class="page-num">
-                  <p>03</p>
+                  <p>04</p>
                 </div>
               </div>
             </div>
