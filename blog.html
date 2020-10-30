@@ -30,7 +30,7 @@
   </head>
   <body>
     <style >
-.page-top {
+/*.page-top {
     width: 100%;
     height: 15vh;
  
@@ -44,7 +44,7 @@
 }
 .iframe-container {
   overflow: hidden;
-  padding-top: 56.25%; /* 16:9*/
+  padding-top: 56.25%; 
   position: relative;
 }
 
@@ -64,6 +64,11 @@
 
 body::-webkit-scrollbar {
     display: none;
+}*/
+
+.page-top .image__reile {
+    background: url(assets/img/blog.png) no-repeat center;
+    background-size: cover;
 }
       
 
@@ -87,17 +92,18 @@ body::-webkit-scrollbar {
       <div class="loader"></div>
     </header>
     <main id="barba-wrapper">
-     <!--  <div class="barba-container" data-namespace="underlayer">
-        <div class="page-top">
-      
-          </div> 
-        </div> -->
-     <!--    <div class="iframe-container">
-
-
-  <iframe width="560" height="315" src="https://cuscienceclubtest.blogspot.com/" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" loading="lazy" allowfullscreen></iframe>
-</div>
-      -->
+     <div class="page-top">
+          <div class="page-top__inner"><a class="back-arrow" href="index.html#reile"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="34" viewBox="0 0 67 34"><g fill="none" fill-rule="evenodd" stroke="#FFF" stroke-linecap="round" transform="translate(2 1)"><path stroke-width="2" d="M0,15.5533333 L64,15.5533333"/><polyline stroke-width="2" points="15.556 0 0 15.556 15.556 31.111"/></g></svg></a>
+            <p class="scrollDown">SCROLLDOWN</p>
+            <div class="title">
+              <h2 class="title__text">Ramadan's Blog<br></h2>
+              <div class="border js-toRight"><span></span><span></span></div>
+              <p class="title__lead">website</p>
+              <div class="btn-wrap"><a class="btn" href="#" target="_balnk">Visit site</a></div>
+            </div>
+            <div class="image image__reile"></div>
+          </div>
+        </div>
         <section class="wrapper">
         <!--   <div class="meta" data-emergence="hidden">
             <div class="meta__back"></div>
