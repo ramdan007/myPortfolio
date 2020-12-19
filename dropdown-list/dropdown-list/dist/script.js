@@ -2,11 +2,13 @@ var dropdown1 = $('.dropdown1');
 var dropdown2 = $('.dropdown2');
 var dropdown3 = $('.dropdown3');
 var dropdown4 = $('.dropdown4');
+var dropdown5 = $('.dropdown5');
 
 var item1 = $('.dropdown1 > .item');
 var item2 = $('.dropdown2 > .item');
 var item3 = $('.dropdown3 > .item');
 var item4 = $('.dropdown4 > .item');
+var item5 = $('.dropdown5 > .item');
 
 item1.on('click', function() {
   item1.toggleClass('collapse');
@@ -52,6 +54,18 @@ item4.on('click', function() {
   } else {
     setTimeout(function() {
       dropdown4.toggleClass('dropped');
+    }, 150);
+  }
+})
+
+item5.on('click', function() {
+  item5.toggleClass('collapse');
+  
+  if (dropdown5.hasClass('dropped')) {
+    dropdown5.toggleClass('dropped');
+  } else {
+    setTimeout(function() {
+      dropdown5.toggleClass('dropped');
     }, 150);
   }
 })
