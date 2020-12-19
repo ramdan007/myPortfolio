@@ -22,7 +22,7 @@
   transition: transform .15s linear;
   cursor: pointer;
   user-select: none;
-  color: #000!important;
+  color: #BFA67A!important;
 }
 .item:last-child {
   transform: translate3d(0, -150px, 0);
