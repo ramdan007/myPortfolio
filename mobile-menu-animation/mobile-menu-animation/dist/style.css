@@ -129,10 +129,9 @@ MENU STYLES
 */
 
 .menu{
-  --uiMenuCircleSize: var(--menuCircleSize, 6.25rem);
+  --uiMenuCircleSize: var(--menuCircleSize, 12.25rem);
   --uiMenuCircleOffset: var(--menuCircleOffset, 1rem);
   --uiMenuCircleHeight: calc(var(--uiMenuCircleSize) / 2);  
-  --uiMenuCircleBackgroundColor: var(--menuCircleBackgroundColor, currentColor);
 
   --uiMenuHamburgerWidth: var(--menuHamburgerWidth, 1.75rem);
   --uiMenuHamburgerHeight: var(--menuHamburgerHeight, 1.25rem);
@@ -142,13 +141,12 @@ MENU STYLES
   --hamburgerWidth: var(--uiMenuHamburgerWidth);
   --hamburgerHeight: var(--uiMenuHamburgerHeight);
   --hamburgerBackgroundColor: var(--menuHamburgerBackgroundColor, #fff);
-
+  --uiMenuCircleBackgroundColor: #bfa67a;
   width: 100%;
   
   display: flex;
   flex-direction: column;
-  align-items: center;  
-
+  align-items: flex-end;
   position: fixed;
   bottom: 0;
   left: 0;
@@ -287,7 +285,7 @@ SETTINGS
 
 :root{
   --colorWhite: #fff;
-  --colorMain: #000000a6;
+  --colorMain: #bfa67a;
   --menuCircleBackgroundColor: var(--colorMain);
   --menuHamburgerBackgroundColor: var(--colorWhite);
   --menuHaburgerOutlineColor: var(--colorMain);
@@ -312,4 +310,9 @@ DEMO
   font-size: 2rem;
   font-weight: 700;
   text-transform: uppercase;
+}
+
+.menu{
+
+      align-items: flex-start!important;
 }

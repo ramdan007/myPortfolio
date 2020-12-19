@@ -40,15 +40,18 @@
 .collapse:nth-of-type(1) {
   transform: translate3d(0, 0, 0);
 }
+
 .collapse:nth-of-type(2) {
   transform: translate3d(0, -56px, 0) scale(1.05);
 }
 .collapse:nth-of-type(1) {
   transform: translate3d(0, 0, 0);
 }
+
 .collapse:nth-of-type(3) {
   transform: translate3d(0, -112px, 0) scale(1.075);
 }
+
 .collapse:nth-of-type(1) {
   transform: translate3d(0, 0, 0);
 }
@@ -58,6 +61,7 @@
 .collapse:nth-of-type(1) {
   transform: translate3d(0, 0, 0);
 }
+
 .collapse:hover:last-child {
   transform-origin: 50% 100%;
   transform: translate3d(0, -174px, 0) rotateX(30deg) scale(1.1);
