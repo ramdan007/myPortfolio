@@ -4,7 +4,7 @@
   height: 50px;
   margin: 40px auto;
   perspective: 1000px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  /*box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);*/
 }
 
 .dropped {
@@ -22,6 +22,7 @@
   transition: transform .15s linear;
   cursor: pointer;
   user-select: none;
+  color: #000!important;
 }
 .item:last-child {
   transform: translate3d(0, -150px, 0);
