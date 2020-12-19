@@ -287,7 +287,7 @@ SETTINGS
 
 :root{
   --colorWhite: #fff;
-  --colorMain: #4557bb;
+  --colorMain: #000000a6;
   --menuCircleBackgroundColor: var(--colorMain);
   --menuHamburgerBackgroundColor: var(--colorWhite);
   --menuHaburgerOutlineColor: var(--colorMain);
